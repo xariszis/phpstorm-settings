@@ -1,0 +1,8 @@
+<templateSet group="AW PHP">
+  <template name="pre" value="echo '&lt;pre&gt;';&#10;print_r($EXPRESSION$);&#10;echo '&lt;/pre&gt;';" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPRESSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

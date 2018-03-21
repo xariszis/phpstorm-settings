@@ -1,0 +1,47 @@
+<templateSet group="AW CSS">
+  <template name="div" value="float: left;&#10;position: relative;&#10;width: $DEFAULT_WIDTH$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFAULT_WIDTH" expression="" defaultValue="&quot;100%&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="awflex" value="display: -webkit-flex;&#10;display: flex;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="awjustifycontent" value="-webkit-justify-content: $DEFAULT_JUSTIFY$;&#10;justify-content: $DEFAULT_JUSTIFY$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFAULT_JUSTIFY" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="awalignitems" value="-webkit-align-items: $DEFAULT_ALIGN$;&#10;align-items: $DEFAULT_ALIGN$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFAULT_ALIGN" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="awflexwrap" value="-webkit-flex-wrap: $DEFAULT_WRAP$;&#10;flex-wrap: $DEFAULT_WRAP$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFAULT_WRAP" expression="" defaultValue="&quot;wrap&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="awflexdirection" value="-webkit-flex-direction: $DEFAULT_DIRECTION$;&#10;flex-direction: $DEFAULT_DIRECTION$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFAULT_DIRECTION" expression="" defaultValue="&quot;column&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="fullflex" value="-webkit-align-items: $DEFAULT_ALIGN$;&#10;align-items: $DEFAULT_ALIGN$;&#10;display: -webkit-flex;&#10;display: flex;&#10;-webkit-flex-direction: $DEFAULT_DIRECTION$;&#10;flex-direction: $DEFAULT_DIRECTION$;&#10;-webkit-flex-wrap: $DEFAULT_WRAP$;&#10;flex-wrap: $DEFAULT_WRAP$;&#10;float: left;&#10;-webkit-justify-content: $DEFAULT_JUSTIFY$;&#10;justify-content: $DEFAULT_JUSTIFY$;&#10;position: relative;&#10;width: $DEFAULT_WIDTH$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFAULT_ALIGN" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_DIRECTION" expression="" defaultValue="&quot;row&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_WRAP" expression="" defaultValue="&quot;wrap&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_JUSTIFY" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_WIDTH" expression="" defaultValue="&quot;100%&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
