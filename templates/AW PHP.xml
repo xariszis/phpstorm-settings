@@ -1,5 +1,5 @@
 <templateSet group="AW PHP">
-  <template name="pre" value="echo '&lt;pre style=&quot;float: left; width: 100%&quot;&gt;';&#10;print_r($EXPRESSION$);&#10;echo '&lt;/pre&gt;';" description="" toReformat="false" toShortenFQNames="true">
+  <template name="pre" value="if ($_SERVER['REMOTE_ADDR'] == '62.38.193.63') {&#10;    echo '&lt;pre style=&quot;float: left; width: 100%&quot;&gt;';&#10;    print_r($EXPRESSION$);&#10;    echo '&lt;/pre&gt;';&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="EXPRESSION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
