@@ -44,7 +44,7 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="awboxsizing" value="-webkit-box-sizing: border-box;&#10;-moz-box-sizing: border-box;&#10;box-sizing: border-box;" toReformat="false" toShortenFQNames="true">
+  <template name="awboxsizing" value="-webkit-box-sizing: border-box;&#10;-moz-box-sizing: border-box;&#10;box-sizing: border-box;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
