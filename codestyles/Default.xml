@@ -1,3 +1,19 @@
 <code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="180" />
+  <CssCodeStyleSettings>
+    <option name="BLANK_LINES_BETWEEN_BLOCKS" value="0" />
+    <option name="BLANK_LINES_AROUND_NESTED_SELECTOR" value="0" />
+  </CssCodeStyleSettings>
+  <ScssCodeStyleSettings>
+    <option name="BLANK_LINES_BETWEEN_BLOCKS" value="0" />
+  </ScssCodeStyleSettings>
+  <codeStyleSettings language="CSS">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="0" />
+  </codeStyleSettings>
+  <codeStyleSettings language="SCSS">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="0" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
 </code_scheme>

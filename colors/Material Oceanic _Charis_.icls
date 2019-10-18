@@ -4,7 +4,7 @@
     <property name="created">2018-02-08T14:18:42</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.3.0.0</property>
-    <property name="modified">2018-02-26T16:42:45</property>
+    <property name="modified">2019-08-01T10:55:51</property>
     <property name="originalScheme">_@user_Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -18,7 +18,6 @@
   </font>
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
-  <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="c3e88d" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -3753,7 +3752,6 @@
     <option name="XML_TAG_DATA">
       <value>
         <option name="FOREGROUND" value="c3cee3" />
-        <option name="BACKGROUND" value="263238" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>

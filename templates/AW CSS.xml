@@ -44,4 +44,15 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="awboxsizing" value="-webkit-box-sizing: border-box;&#10;-moz-box-sizing: border-box;&#10;box-sizing: border-box;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="awtransform" value="-webkit-transform: $DEFAULT_TRANSFORM$;&#10;-moz-transform: $DEFAULT_TRANSFORM$;&#10;transform: $DEFAULT_TRANSFORM$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFAULT_TRANSFORM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
