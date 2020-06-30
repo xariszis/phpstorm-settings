@@ -5,30 +5,30 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="awflex" value="display: -webkit-flex;&#10;display: flex;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ccflex" value="display: -webkit-flex;&#10;display: flex;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="awjustifycontent" value="-webkit-justify-content: $DEFAULT_JUSTIFY$;&#10;justify-content: $DEFAULT_JUSTIFY$;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ccjustifycontent" value="-webkit-justify-content: $DEFAULT_JUSTIFY$;&#10;justify-content: $DEFAULT_JUSTIFY$;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="DEFAULT_JUSTIFY" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="awalignitems" value="-webkit-align-items: $DEFAULT_ALIGN$;&#10;align-items: $DEFAULT_ALIGN$;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ccalignitems" value="-webkit-align-items: $DEFAULT_ALIGN$;&#10;align-items: $DEFAULT_ALIGN$;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="DEFAULT_ALIGN" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="awflexwrap" value="-webkit-flex-wrap: $DEFAULT_WRAP$;&#10;flex-wrap: $DEFAULT_WRAP$;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ccflexwrap" value="-webkit-flex-wrap: $DEFAULT_WRAP$;&#10;flex-wrap: $DEFAULT_WRAP$;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="DEFAULT_WRAP" expression="" defaultValue="&quot;wrap&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="awflexdirection" value="-webkit-flex-direction: $DEFAULT_DIRECTION$;&#10;flex-direction: $DEFAULT_DIRECTION$;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ccflexdirection" value="-webkit-flex-direction: $DEFAULT_DIRECTION$;&#10;flex-direction: $DEFAULT_DIRECTION$;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="DEFAULT_DIRECTION" expression="" defaultValue="&quot;column&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
@@ -44,12 +44,18 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="awboxsizing" value="-webkit-box-sizing: border-box;&#10;-moz-box-sizing: border-box;&#10;box-sizing: border-box;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ccboxsizing" value="-webkit-box-sizing: border-box;&#10;-moz-box-sizing: border-box;&#10;box-sizing: border-box;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="awtransform" value="-webkit-transform: $DEFAULT_TRANSFORM$;&#10;-moz-transform: $DEFAULT_TRANSFORM$;&#10;transform: $DEFAULT_TRANSFORM$;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cctransform" value="-webkit-transform: $DEFAULT_TRANSFORM$;&#10;-moz-transform: $DEFAULT_TRANSFORM$;&#10;transform: $DEFAULT_TRANSFORM$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFAULT_TRANSFORM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="cctransition" value="-webkit-transition: $DEFAULT_TRANSFORM$;&#10;-moz-transition: $DEFAULT_TRANSFORM$;&#10;transition: $DEFAULT_TRANSFORM$;" toReformat="false" toShortenFQNames="true">
     <variable name="DEFAULT_TRANSFORM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
