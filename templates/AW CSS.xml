@@ -55,7 +55,7 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="cctransition" value="-webkit-transition: $DEFAULT_TRANSFORM$;&#10;-moz-transition: $DEFAULT_TRANSFORM$;&#10;transition: $DEFAULT_TRANSFORM$;" toReformat="false" toShortenFQNames="true">
+  <template name="cctransition" value="-webkit-transition: $DEFAULT_TRANSFORM$;&#10;-moz-transition: $DEFAULT_TRANSFORM$;&#10;transition: $DEFAULT_TRANSFORM$;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="DEFAULT_TRANSFORM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
