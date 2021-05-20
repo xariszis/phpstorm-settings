@@ -5,6 +5,7 @@
       <mapping pattern=".htaccess.admintools" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern=".ftpquota" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
