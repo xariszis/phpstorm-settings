@@ -1,10 +1,11 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="ccSelect2.css" type="AUTO_DETECTED" />
       <mapping pattern="error_logfile" type="PLAIN_TEXT" />
+      <mapping pattern=".ftpquota" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess.admintools" type="PLAIN_TEXT" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
-      <mapping pattern=".ftpquota" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="06" type="PLAIN_TEXT" />
