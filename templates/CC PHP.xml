@@ -5,4 +5,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="ccauth" value="@if (auth()-&gt;id() == 2)&#10;    &#10;@endif" shortcut="TAB" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
